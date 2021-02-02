@@ -2,23 +2,23 @@ const products = [
 	{
 		name: 'Blue Toner',
 		brand: 'Konica Minolta',
-		units: 'bottles',
-		price: 2,
+		units: 'Bottles',
+		quantity: 26,
 		isPurchased: false
 	},
 	{
 		name: 'Cyan Toner',
 		brand: 'Canon',
-		units: 'bottles',
-		price: 4,
+		units: 'Bottles',
+		quantity: 4,
 		isPurchased: false
 	},
 	{
 		name: 'Magenta Toner',
 		brand: 'Hewlett Packard',
-		units: 'cartridges',
-		price: 22,
-		isPurchased: false
+		units: 'Cartridges',
+		quantity: 23,
+		isPurchased: true
 	}
 ];
 export default products;

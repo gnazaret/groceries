@@ -51,7 +51,8 @@ div{
   height: 120px;
   width: 100%;
   font-size: 30px;
-  box-shadow: 4px 8px 16px 8px rgba(red, 0.3);
+
+  box-shadow: 2px 4px 8px 4px rgba(red, 0.4);
  
 }
 h1 {
@@ -231,4 +232,13 @@ h1 {
       }
     }
   }
+}
+.button {
+  margin: 50px;
+  width: 100px;
+  height: 30px;
+  align-self: center;
+}
+.list {
+  align-content: center;
 }
